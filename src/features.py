@@ -5,6 +5,7 @@ import chess
 import chess.pgn
 import io
 from tqdm import tqdm
+from scipy.stats import entropy
 
 # ── CONSTANTS ───────────────────────────────────────────────────────
 PIECE_VALUES = {
@@ -160,10 +161,6 @@ def parse_move_features(moves_str: str, player_side: str) -> dict:
 
 
 def build_game_features(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Build game-level feature matrix.
-    One row per game, tagged with username.
-    """
     features = []
 
     for _, row in tqdm(df.iterrows(), total=len(df), desc="Game features"):
@@ -195,6 +192,7 @@ def build_game_features(df: pd.DataFrame) -> pd.DataFrame:
             "piece_activity":    move_feats["piece_activity"],
             "avg_material_diff": move_feats["avg_material_diff"],
             "gambit_tendency":   int("gambit" in str(row["opening_name"]).lower()),
+            "opening_eco":       str(row["opening_eco"]),
             "sharp_opening":     int(any(
                 str(row["opening_eco"]).startswith(p)
                 for p in SHARP_ECO_PREFIXES
@@ -207,10 +205,6 @@ def build_game_features(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def aggregate_to_player_level(game_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Aggregate game-level features into one row per player.
-    This is the unit of analysis for clustering.
-    """
     players = []
 
     for username, grp in tqdm(
@@ -219,10 +213,16 @@ def aggregate_to_player_level(game_df: pd.DataFrame) -> pd.DataFrame:
 
         n_games = len(grp)
 
-        # Castle features split into rate + timing
+        # Castle features
         castled_games   = grp["castle_move"].dropna()
         castle_rate     = len(castled_games) / n_games
         avg_castle_move = castled_games.mean() if len(castled_games) > 0 else np.nan
+
+        # Opening diversity features
+        eco_counts       = grp["opening_eco"].value_counts()
+        opening_entropy  = entropy(eco_counts)
+        top_opening_pct  = eco_counts.iloc[0] / n_games if len(eco_counts) > 0 else 0
+        unique_openings  = grp["opening_eco"].nunique()
 
         p = {
             "username":              username,
@@ -249,6 +249,9 @@ def aggregate_to_player_level(game_df: pd.DataFrame) -> pd.DataFrame:
             # Opening
             "gambit_rate":           grp["gambit_tendency"].mean(),
             "sharp_opening_rate":    grp["sharp_opening"].mean(),
+            "opening_entropy":       opening_entropy,
+            "top_opening_pct":       top_opening_pct,
+            "unique_openings":       unique_openings,
 
             # Outcomes
             "win_rate":              (grp["result"] == 1).mean(),
@@ -271,10 +274,10 @@ def aggregate_to_player_level(game_df: pd.DataFrame) -> pd.DataFrame:
 if __name__ == "__main__":
     df_raw = pd.read_csv("data/games_raw.csv")
 
-    # Filter out players with fewer than 30 games
-    game_counts  = df_raw.groupby("username").size()
-    valid        = game_counts[game_counts >= 30].index
-    df_raw       = df_raw[df_raw["username"].isin(valid)]
+    # Filter players with 30+ games
+    game_counts = df_raw.groupby("username").size()
+    valid       = game_counts[game_counts >= 30].index
+    df_raw      = df_raw[df_raw["username"].isin(valid)]
 
     print(f"Loaded {len(df_raw)} games for "
           f"{df_raw['username'].nunique()} players "
@@ -292,10 +295,11 @@ if __name__ == "__main__":
     player_df.to_csv("data/features_player_level.csv", index=False)
     print(f"Saved: data/features_player_level.csv {player_df.shape}")
 
-    # Print player profiles
+    # Print player profiles with new features
     print("\nPlayer profiles:")
     print(player_df[[
         "username", "capture_rate_mean", "sacrifice_rate_mean",
         "gambit_rate", "castle_rate", "avg_castle_move",
+        "opening_entropy", "top_opening_pct", "unique_openings",
         "win_rate", "avg_game_length"
     ]].to_string())
