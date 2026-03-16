@@ -162,30 +162,36 @@ def fetch_all_players(
 if __name__ == "__main__":
     os.makedirs("data", exist_ok=True)
 
-    # ── Build diverse player pool ──────────────────────────────────
     print("Building diverse player pool from Lichess...")
 
-    # Elite players (2400+) — top of leaderboard
+    # Elite players from leaderboard (all 2400+)
     elite = fetch_top_rapid_players(20)
 
-    # Mid-range players (1800-2300)
-    mid = fetch_players_by_rating_range(1800, 2300, 10)
+    # Mid and club level — curated active Lichess rapid players
+    mid_and_club = [
+        "chess-network",
+        "Eric_Rosen",
+        "penguingim1",
+        "JohnBartholomew",
+        "MatoJelic",
+        "SimonWilliams1",
+        "Kingscrusher",
+        "thechesswebsite",
+        "PowerPlayChess",
+        "ChessExplained",
+    ]
 
-    # Club players (1200-1700)
-    club = fetch_players_by_rating_range(1200, 1700, 10)
-
-    # Combine and deduplicate, preserve order
-    all_players = list(dict.fromkeys(elite + mid + club))
+    # Combine and deduplicate
+    all_players = list(dict.fromkeys(elite + mid_and_club))
     print(f"\nTotal unique players to fetch: {len(all_players)}")
     print(all_players)
 
-    # ── Fetch games ────────────────────────────────────────────────
+    # Fetch games
     df = fetch_all_players(all_players, max_games=100)
 
     if not df.empty:
         df.to_csv("data/games_raw.csv", index=False)
         print(f"\nSaved to data/games_raw.csv")
         print(f"Shape: {df.shape}")
-        print(f"\nSample:")
-        print(df[["username", "speed", "white_user", "black_user",
-                   "winner", "status", "opening_name"]].head(10))
+        print(f"\nGames per player:")
+        print(df.groupby("username").size().sort_values(ascending=False).to_string())
