@@ -38,7 +38,27 @@ def prepare_features(df: pd.DataFrame) -> tuple:
     X = scaler.fit_transform(df_clean[FEATURE_COLS])
     print(f"Feature matrix: {X.shape}, dropped {len(df)-len(df_clean)} rows")
     return X, df_clean, scaler
+from sklearn.decomposition import PCA
 
+def reduce_dimensions(X: np.ndarray, variance_threshold: float = 0.90) -> tuple:
+    """
+    Use PCA to reduce dimensions while retaining 90% of variance.
+    This removes correlated features and helps clustering
+    with small datasets.
+    """
+    pca = PCA(n_components=variance_threshold, random_state=42)
+    X_reduced = pca.fit_transform(X)
+    
+    n_components = X_reduced.shape[1]
+    explained    = pca.explained_variance_ratio_
+    
+    print(f"\nPCA Dimensionality Reduction:")
+    print(f"  Original dimensions : {X.shape[1]}")
+    print(f"  Reduced dimensions  : {n_components}")
+    print(f"  Variance retained   : {sum(explained):.1%}")
+    print(f"  Per component       : {[round(e, 3) for e in explained]}")
+    
+    return X_reduced, pca
 # ── KMEANS ──────────────────────────────────────────────────────────
 def run_kmeans(X: np.ndarray, k: int = 5) -> tuple:
     model = KMeans(n_clusters=k, random_state=42, n_init=20)
@@ -206,16 +226,19 @@ if __name__ == "__main__":
     df = pd.read_csv("data/features_player_level.csv")
     X, df_clean, scaler = prepare_features(df)
     
+    # Reduce dimensions before clustering
+    X_reduced, pca_model = reduce_dimensions(X, variance_threshold=0.90)
+    
     print("Finding optimal k...")
-    best_k = find_optimal_k(X)
+    best_k = find_optimal_k(X_reduced)
     
     print(f"\nRunning all models with k={best_k}...")
-    km_labels,  km_sil,  km_db,  km_model         = run_kmeans(X, best_k)
-    gmm_labels, gmm_sil, gmm_db, gmm_model, probs  = run_gmm(X, best_k)
-    db_labels,  db_sil,  db_db,  db_model          = run_dbscan(X)
-    hc_labels,  hc_sil,  hc_db,  hc_model          = run_hierarchical(X, best_k)
+    km_labels,  km_sil,  km_db,  km_model         = run_kmeans(X_reduced, best_k)
+    gmm_labels, gmm_sil, gmm_db, gmm_model, probs  = run_gmm(X_reduced, best_k)
+    db_labels,  db_sil,  db_db,  db_model          = run_dbscan(X_reduced)
+    hc_labels,  hc_sil,  hc_db,  hc_model          = run_hierarchical(X_reduced, best_k)
     
-    plot_comparison(X, {
+    plot_comparison(X_reduced, {
         f"KMeans (k={best_k})":       km_labels,
         f"GMM (k={best_k})":          gmm_labels,
         "DBSCAN (auto k)":            db_labels,
@@ -229,7 +252,6 @@ if __name__ == "__main__":
         ("Hierarchical", hc_sil,  hc_db),
     ])
     
-    # Add cluster labels to player df
     df_clean["cluster_kmeans"]       = km_labels
     df_clean["cluster_gmm"]          = gmm_labels
     df_clean["cluster_dbscan"]       = db_labels
@@ -241,7 +263,6 @@ if __name__ == "__main__":
     df_clean.to_csv("data/clustered_players.csv", index=False)
     print("\nSaved to data/clustered_players.csv")
     
-    # Print which player landed in which cluster
     print("\nPlayer cluster assignments (KMeans):")
     print(df_clean[["username", "cluster_kmeans"]].sort_values(
         "cluster_kmeans").to_string())
