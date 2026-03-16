@@ -11,11 +11,24 @@ import warnings
 warnings.filterwarnings("ignore")
 
 FEATURE_COLS = [
-    "panic_score", "time_per_move",
-    "capture_rate", "sacrifice_rate", "check_rate",
-    "early_aggression", "castle_move", "piece_activity",
-    "avg_material_diff", "gambit_tendency", "sharp_opening",
-    "decisive_game"
+    "panic_score_mean",
+    "panic_score_std",
+    "time_per_move_mean",
+    "capture_rate_mean",
+    "capture_rate_std",
+    "sacrifice_rate_mean",
+    "check_rate_mean",
+    "early_aggression_mean",
+    "piece_activity_mean",
+    "avg_material_diff",
+    "castle_rate",
+    "avg_castle_move",
+    "gambit_rate",
+    "sharp_opening_rate",
+    "win_rate",
+    "draw_rate",
+    "decisive_rate",
+    "avg_game_length",
 ]
 
 # ── PREP ────────────────────────────────────────────────────────────
@@ -189,48 +202,46 @@ def print_summary(scores: list) -> None:
     best = max(scores, key=lambda x: x[1])
     print(f"\nWinner: {best[0]} (silhouette={best[1]:.3f})")
 
-# ── MAIN ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    df = pd.read_csv("data/features.csv")
+    df = pd.read_csv("data/features_player_level.csv")
     X, df_clean, scaler = prepare_features(df)
     
-    # Find optimal k first
     print("Finding optimal k...")
     best_k = find_optimal_k(X)
     
-    # Run all models
     print(f"\nRunning all models with k={best_k}...")
+    km_labels,  km_sil,  km_db,  km_model         = run_kmeans(X, best_k)
+    gmm_labels, gmm_sil, gmm_db, gmm_model, probs  = run_gmm(X, best_k)
+    db_labels,  db_sil,  db_db,  db_model          = run_dbscan(X)
+    hc_labels,  hc_sil,  hc_db,  hc_model          = run_hierarchical(X, best_k)
     
-    km_labels,  km_sil,  km_db,  km_model          = run_kmeans(X, best_k)
-    gmm_labels, gmm_sil, gmm_db, gmm_model, probs   = run_gmm(X, best_k)
-    db_labels,  db_sil,  db_db,  db_model           = run_dbscan(X)
-    hc_labels,  hc_sil,  hc_db,  hc_model           = run_hierarchical(X, best_k)
-    
-    # Comparison plot
     plot_comparison(X, {
-        f"KMeans (k={best_k})":        km_labels,
-        f"GMM (k={best_k})":           gmm_labels,
-        "DBSCAN (auto k)":             db_labels,
-        f"Hierarchical (k={best_k})":  hc_labels,
+        f"KMeans (k={best_k})":       km_labels,
+        f"GMM (k={best_k})":          gmm_labels,
+        "DBSCAN (auto k)":            db_labels,
+        f"Hierarchical (k={best_k})": hc_labels,
     })
     
-    # Summary
     print_summary([
-        ("KMeans",        km_sil,  km_db),
-        ("GMM",           gmm_sil, gmm_db),
-        ("DBSCAN",        db_sil,  db_db),
-        ("Hierarchical",  hc_sil,  hc_db),
+        ("KMeans",       km_sil,  km_db),
+        ("GMM",          gmm_sil, gmm_db),
+        ("DBSCAN",       db_sil,  db_db),
+        ("Hierarchical", hc_sil,  hc_db),
     ])
     
-    # Save best model results
-    df_clean["cluster_kmeans"]      = km_labels
-    df_clean["cluster_gmm"]         = gmm_labels
-    df_clean["cluster_dbscan"]      = db_labels
-    df_clean["cluster_hierarchical"]= hc_labels
+    # Add cluster labels to player df
+    df_clean["cluster_kmeans"]       = km_labels
+    df_clean["cluster_gmm"]          = gmm_labels
+    df_clean["cluster_dbscan"]       = db_labels
+    df_clean["cluster_hierarchical"] = hc_labels
     
-    # GMM soft probabilities — unique value of GMM
     for i in range(probs.shape[1]):
         df_clean[f"gmm_prob_cluster_{i}"] = probs[:, i]
     
-    df_clean.to_csv("data/clustered_games.csv", index=False)
-    print("\nSaved all model results to data/clustered_games.csv")
+    df_clean.to_csv("data/clustered_players.csv", index=False)
+    print("\nSaved to data/clustered_players.csv")
+    
+    # Print which player landed in which cluster
+    print("\nPlayer cluster assignments (KMeans):")
+    print(df_clean[["username", "cluster_kmeans"]].sort_values(
+        "cluster_kmeans").to_string())
