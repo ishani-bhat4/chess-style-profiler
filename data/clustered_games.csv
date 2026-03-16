@@ -1,0 +1,101 @@
+game_id,side,speed,num_moves,result,panic_score,gambit_tendency,sharp_opening,decisive_game,opening_name,opening_eco,status,cluster,style
+zUxV8GLr,white,bullet,67,1,2.3578431372549016,0,1,1,"King's Indian Defense: Orthodox Variation, Positional Defense, Closed Line",E94,resign,2,Tactical Opportunist
+UEHX6oFD,black,bullet,106,0,0.6633165829145728,0,0,0,King's Indian Attack: Symmetrical Defense,A05,draw,4,
+JrfNbeoz,white,bullet,47,1,1.709375,0,0,1,Nimzowitsch Defense,B00,resign,1,Positional Grinder
+fMIf8O0H,black,bullet,30,1,10.645833333333334,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign,3,Defensive Fortress
+qqcAlGZe,white,bullet,101,1,0.9430379746835444,0,0,1,Hungarian Opening,A00,resign,1,Positional Grinder
+OK63uLhA,black,bullet,76,1,6.689655172413794,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,mate,3,Defensive Fortress
+EOwvdMyl,black,bullet,56,1,4.754310344827586,0,0,1,Bird Opening,A02,mate,1,Positional Grinder
+T0hqqeXL,white,bullet,25,1,3.555555555555556,0,0,1,English Defense,A40,resign,1,Positional Grinder
+U7vJv1HU,black,bullet,73,-1,2.1828703703703702,0,0,1,"King's Indian Attack, with e6",A07,resign,1,Positional Grinder
+oPMO817E,white,bullet,70,-1,2.1527777777777777,0,0,1,Hungarian Opening: Reversed Alekhine,A00,resign,1,Positional Grinder
+ai4mXm5Q,black,bullet,86,1,0.8265765765765766,0,0,1,English Opening: Great Snake Variation,A10,resign,1,Positional Grinder
+MoasISt2,white,bullet,83,1,2.450284090909091,0,0,1,"Grünfeld Defense: Exchange Variation, Spassky Variation",D88,resign,1,Positional Grinder
+jdsZdqm4,black,bullet,72,1,1.4230769230769231,0,0,1,Rapport-Jobava System,D01,resign,1,Positional Grinder
+2WzTqTeg,white,bullet,68,1,2.0,0,1,1,Sicilian Defense: Taimanov Variation,B46,resign,2,Tactical Opportunist
+BdIlhVem,white,bullet,25,1,4.0625,0,1,1,Sicilian Defense,B27,resign,2,Tactical Opportunist
+X2ooxxhO,black,bullet,78,1,4.665909090909091,0,0,1,King's Indian Attack: Symmetrical Defense,A05,resign,1,Positional Grinder
+iYUxzt1g,white,bullet,95,1,1.5115740740740742,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign,1,Positional Grinder
+jsnf9Tyl,white,bullet,164,0,0.2963800904977375,0,0,1,King's Indian Attack,A07,outoftime,1,Positional Grinder
+ZZImaDvj,black,bullet,146,1,0.7963615023474179,0,0,1,Queen's Pawn Game: Modern Defense,A40,mate,1,Positional Grinder
+uZ8Ugjbm,black,bullet,47,-1,2.316532258064516,1,0,1,"Queen's Gambit Accepted: Classical Defense, Main Line",D27,resign,0,Aggressive Attacker
+fNUpn0oK,white,bullet,118,1,1.933544303797468,0,0,1,"Réti Opening: Anglo-Slav Variation, with g3",A11,resign,1,Positional Grinder
+MSkP4tKc,white,bullet,41,1,5.6625,0,0,1,King's Indian Attack,A05,resign,3,Defensive Fortress
+ZjbAs7ai,black,bullet,102,1,0.9803921568627452,0,1,1,"Pterodactyl Defense: Western, Rhamphorhynchus",B27,mate,2,Tactical Opportunist
+3YrxyLMY,white,bullet,93,1,1.2232905982905984,0,0,1,Zukertort Opening,A05,resign,1,Positional Grinder
+fcmhc2GV,black,bullet,72,1,0.6403985507246377,0,1,1,Sicilian Defense: Najdorf Variation,B90,resign,2,Tactical Opportunist
+knxDYq5W,white,bullet,55,1,1.4183333333333332,0,0,1,Hungarian Opening: Slav Formation,A00,resign,1,Positional Grinder
+9vzrfIrv,black,bullet,103,-1,1.6289893617021278,0,0,1,"Queen's Indian Defense: Kasparov-Petrosian Variation, Andersson Variation",E12,resign,1,Positional Grinder
+pHGFe1lT,black,bullet,126,1,0.7229381443298969,0,0,1,Rapport-Jobava System,D01,outoftime,1,Positional Grinder
+WPYzAi4Z,white,bullet,75,1,1.3002232142857142,0,1,1,King's Indian Defense: Orthodox Variation,E91,resign,2,Tactical Opportunist
+nvybf9EQ,black,bullet,109,-1,1.1160714285714286,0,1,1,Four Knights Game,C47,resign,2,Tactical Opportunist
+5oquNjYQ,white,bullet,148,-1,0.3928571428571428,0,0,1,Grünfeld Defense,D80,outoftime,1,Positional Grinder
+OJozkZH3,black,bullet,128,1,1.0129870129870129,0,1,1,Sicilian Defense: Alapin Variation,B22,outoftime,2,Tactical Opportunist
+lUP0KiqC,white,bullet,88,-1,2.210227272727273,0,0,1,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C55,resign,1,Positional Grinder
+ovXf5I0A,black,bullet,128,1,0.5416666666666666,0,0,1,Rapport-Jobava System,D01,outoftime,1,Positional Grinder
+KyVLw4xS,white,bullet,115,0,0.4046717171717172,0,0,0,Zukertort Opening: Kingside Fianchetto,A04,draw,4,
+oPmPGF8X,black,bullet,37,-1,15.45,0,0,1,King's Indian Attack: Symmetrical Defense,A05,resign,3,Defensive Fortress
+bDRN4aOQ,white,bullet,83,1,1.5945945945945943,0,0,1,Zukertort Opening,A05,outoftime,1,Positional Grinder
+OwBe22yo,black,bullet,113,0,0.7850877192982456,0,0,0,Modern Defense: Pseudo-Austrian Attack,B06,draw,4,
+O79p4glP,white,bullet,77,1,1.8539325842696628,0,0,1,"English Opening: King's English Variation, Four Knights Variation, Flexible Line",A28,resign,1,Positional Grinder
+P8sDo8tc,black,bullet,88,1,1.2335858585858586,0,0,1,Modern Defense,B06,resign,1,Positional Grinder
+GILE0fmS,white,bullet,126,-1,0.5225903614457832,0,0,1,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,outoftime,1,Positional Grinder
+ony4vIqh,black,bullet,80,1,2.595454545454545,0,0,1,Alekhine Defense: Brooklyn Variation,B02,resign,1,Positional Grinder
+7QfHIkvB,black,bullet,81,0,1.6987951807228916,1,0,0,"Queen's Gambit Declined: Vienna Variation, Quiet Variation",D37,draw,0,Aggressive Attacker
+CGxkqUqp,white,bullet,49,1,2.1197916666666665,0,1,1,"Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation",B35,resign,2,Tactical Opportunist
+xaFdRV7l,black,bullet,64,1,1.7365384615384614,0,0,1,Queen's Pawn Game: London System,D02,resign,1,Positional Grinder
+RaZzgXoN,white,bullet,94,-1,1.7393617021276595,0,0,1,"English Opening: Symmetrical Variation, Mecking Variation",A39,mate,1,Positional Grinder
+M6eLBiFH,white,bullet,119,1,0.5483490566037735,0,0,1,Lasker Simul Special,A00,mate,1,Positional Grinder
+eWcl7RsZ,black,bullet,72,1,1.4810606060606062,0,0,1,Modern Defense,A41,mate,1,Positional Grinder
+6lXVH00K,black,bullet,112,1,0.8529411764705882,1,0,1,Queen's Gambit Declined: Charousek Variation,D31,outoftime,0,Aggressive Attacker
+OfNq3gH6,white,bullet,75,1,2.2645631067961163,0,0,1,King's Indian Attack: Wahls Defense,A05,resign,1,Positional Grinder
+p8t7n1h4,black,bullet,77,-1,1.9005681818181817,0,0,1,Modern Defense: Pseudo-Austrian Attack,B06,resign,1,Positional Grinder
+zhHaWEYx,white,bullet,90,-1,1.995412844036697,0,1,1,Vienna Game: Paulsen Variation,C25,resign,2,Tactical Opportunist
+iURTZvqA,white,bullet,39,1,3.148809523809524,0,0,1,Hungarian Opening: Indian Defense,A00,resign,1,Positional Grinder
+w0kyVgi1,black,bullet,169,-1,0.2620967741935484,0,0,1,London System,A48,outoftime,1,Positional Grinder
+Kmr7r6wh,white,bullet,91,1,1.332207207207207,0,0,1,Zukertort Opening,A05,outoftime,1,Positional Grinder
+JlEpkyk3,black,bullet,67,1,1.6865671641791045,0,0,1,Queen's Pawn Game: Modern Defense,A40,resign,1,Positional Grinder
+oaByoGQT,white,bullet,77,1,2.055379746835443,0,0,1,King's Indian Attack,A07,resign,1,Positional Grinder
+cEbsIuIM,white,bullet,35,1,3.602272727272727,0,0,1,Queen's Pawn Game,A41,resign,1,Positional Grinder
+7TA0gikZ,black,bullet,27,1,3.0394736842105265,0,0,1,Modern Defense,A41,resign,1,Positional Grinder
+mpdOSjGE,black,bullet,106,1,0.9566176470588236,0,0,1,Owen Defense,B00,resign,1,Positional Grinder
+QypoKrwX,white,bullet,47,1,1.799019607843137,0,0,1,Hungarian Opening: Dutch Defense,A00,resign,1,Positional Grinder
+s0Uhpirb,black,bullet,75,0,0.8069727891156462,0,0,0,"French Defense: Advance Variation, Euwe Variation",C02,draw,4,
+OfyuJPd6,white,bullet,133,1,0.8236940298507462,0,1,1,"Sicilian Defense: Closed, Fianchetto Variation",B24,mate,2,Tactical Opportunist
+sU7DwEQ5,black,bullet,114,1,0.9361510791366906,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,mate,1,Positional Grinder
+nqJ08CV3,white,bullet,77,1,1.2648026315789471,0,0,1,Zukertort Opening: Reversed Grünfeld,A08,resign,1,Positional Grinder
+DRDFnjTg,black,bullet,56,1,0.8348214285714286,0,0,1,Modern Defense: Standard Defense,B06,mate,1,Positional Grinder
+sehBuh7G,white,bullet,79,1,2.8432539682539684,0,0,1,King's Indian Attack: Sicilian Variation,A08,mate,1,Positional Grinder
+BZlVXbm2,black,bullet,36,1,0.9983108108108107,0,0,1,Modern Defense,A41,resign,1,Positional Grinder
+apzXqc2m,black,bullet,80,1,1.048165137614679,0,0,1,Caro-Kann Defense: Two Knights Attack,B10,mate,1,Positional Grinder
+WIPbQ2uh,white,bullet,87,1,2.423728813559322,0,0,1,"King's Indian Attack, with e6",A07,resign,1,Positional Grinder
+0zgPiLLC,white,bullet,85,1,1.0601265822784811,0,1,1,"King's Indian Defense: Fianchetto Variation, Uhlmann-Szabo System",E62,mate,2,Tactical Opportunist
+7Yn8tQRZ,black,bullet,108,1,2.0246913580246915,0,1,1,King's Indian Defense: Makogonov Variation,E71,resign,2,Tactical Opportunist
+2KJCBnT4,white,bullet,98,-1,1.0,0,0,1,Queen's Indian Defense: Classical Variation,E17,outoftime,1,Positional Grinder
+xtXialtC,white,bullet,88,-1,2.294491525423729,0,0,1,King's Indian Attack: Symmetrical Defense,A05,outoftime,1,Positional Grinder
+FmWRUOb5,black,bullet,104,1,0.4917355371900826,0,0,1,Owen Defense,B00,mate,1,Positional Grinder
+bnrQVFwg,black,bullet,125,0,0.5237676056338029,0,0,0,Modern Defense,B06,draw,4,
+QHPVrTI9,white,bullet,119,1,0.4029471544715447,0,0,1,King's Indian Attack,A07,outoftime,1,Positional Grinder
+YB1gWnQG,black,bullet,90,1,1.103448275862069,0,0,1,King's Indian Attack: Wahls Defense,A05,mate,1,Positional Grinder
+5m6KZ6Aj,white,bullet,36,-1,2.893518518518518,0,0,1,Hungarian Opening: Reversed Alekhine,A00,resign,1,Positional Grinder
+DGe4uZ0J,black,bullet,62,1,1.6149193548387095,0,0,1,Pirc Defense: Classical Variation,B08,mate,1,Positional Grinder
+y0gKUFrf,white,bullet,71,1,3.009259259259259,0,0,1,"Benoni Defense: Benoni-Indian Defense, Kingside Move Order",A43,resign,1,Positional Grinder
+Efrc0xxt,black,bullet,58,1,2.375,0,1,1,"King's Indian Defense: Sämisch Variation, Closed Variation",E87,resign,2,Tactical Opportunist
+BMrcRCpP,black,bullet,115,-1,0.9875,0,0,1,King's Indian Attack: Symmetrical Defense,A05,outoftime,1,Positional Grinder
+4lb1YWHp,white,bullet,83,1,1.990740740740741,0,0,1,King's Indian Attack: Yugoslav Variation,A07,mate,1,Positional Grinder
+0Ir1FJhz,black,bullet,40,1,2.3750000000000004,0,1,1,King's Indian Defense: Normal Variation,E70,resign,2,Tactical Opportunist
+JD9cwOBV,white,bullet,98,-1,1.2617187500000002,0,0,1,King's Indian Attack: French Variation,A08,outoftime,1,Positional Grinder
+9plEHNLK,black,bullet,122,1,0.2827380952380952,0,0,1,Nimzo-Larsen Attack,A01,outoftime,1,Positional Grinder
+oHFOtZq4,white,bullet,61,1,2.127840909090909,0,0,1,Hungarian Opening: Indian Defense,A00,mate,1,Positional Grinder
+r2fwyai2,black,bullet,64,1,1.3216463414634143,0,0,1,Indian Defense,A45,resign,1,Positional Grinder
+PNKPc00p,white,bullet,72,-1,7.298076923076923,0,0,1,"English Opening: Agincourt Defense, Neo-Catalan Declined",A14,resign,3,Defensive Fortress
+ILh7x5lK,black,bullet,62,1,2.3720238095238093,0,0,1,Modern Defense,B06,resign,1,Positional Grinder
+IyFe2k8U,black,blitz,96,1,0.4622395833333332,0,0,1,"English Opening: Symmetrical Variation, Botvinnik System",A36,resign,1,Positional Grinder
+FdVI4HR4,black,blitz,60,1,0.6666666666666666,1,0,1,"Queen's Pawn Game: Accelerated London System, Steinitz Countergambit",D00,resign,0,Aggressive Attacker
+NOH9m1vV,black,bullet,43,-1,5.047619047619048,0,0,1,Queen's Pawn Game: Modern Defense,A40,resign,3,Defensive Fortress
+DlnKVdID,black,bullet,82,1,1.8225446428571428,0,0,1,Bird Opening,A02,resign,1,Positional Grinder
+R3QuS4LL,white,bullet,65,1,1.4345238095238095,0,0,1,Ruy Lopez: Fianchetto Defense,C60,resign,1,Positional Grinder
+U4XRlo1O,black,bullet,140,1,0.7481060606060606,0,0,1,"Nimzowitsch Defense: Scandinavian Variation, Exchange Variation",B00,mate,1,Positional Grinder
+CjNfGKGP,white,bullet,107,1,0.8395161290322581,0,1,1,Four Knights Game: Scotch Variation Accepted,C47,resign,2,Tactical Opportunist
+XtuFvvee,black,bullet,90,1,2.677777777777778,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign,1,Positional Grinder
+lc8fR5aZ,white,bullet,53,1,7.863636363636364,0,0,1,King's Indian Attack,A07,resign,3,Defensive Fortress
