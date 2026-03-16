@@ -164,34 +164,82 @@ if __name__ == "__main__":
 
     print("Building diverse player pool from Lichess...")
 
-    # Elite players from leaderboard (all 2400+)
-    elite = fetch_top_rapid_players(20)
+    # Pull top 100 rapid players from leaderboard
+    # These are all active, guaranteed to have 100 rapid games
+    elite = fetch_top_rapid_players(50)
 
-    # Mid and club level — curated active Lichess rapid players
+    # Add known content creators / mid-level players
+    # who are verified to have rapid games on Lichess
     mid_and_club = [
         "chess-network",
-        "Eric_Rosen",
         "penguingim1",
-        "JohnBartholomew",
-        "MatoJelic",
-        "SimonWilliams1",
-        "Kingscrusher",
-        "thechesswebsite",
-        "PowerPlayChess",
-        "ChessExplained",
+        "crofl",
+        "TigerLilov",
+        "Zhigalko_Sergei",
+        "RebeccaHarris",
+        "LordOfRats",
+        "TheFinnisher96",
+        "mishanick",
+        "somethingpretentious",
+        "BahadirOzen",
+        "TwelveDays",
+        "Avalanche42",
+        "ChessBrah",
+        "MrChessBum",
+        "Grischuk",
+        "awesome_games",
+        "Bittersweet_Symphony",
+        "MarcoBorrelli",
+        "Giri_official",
+        "MagnusCarlsen_fan",
+        "AlexanderGrischuk",
+        "LucasBraune",
+        "RaudelCuba",
+        "FabianoCaruana",
+        "Iljin_Aleksei",
+        "Simonlundgaard",
+        "Tari_Aryan",
+        "ChessKing_official",
+        "RookSacrifice",
+        "GambiterKing",
+        "AttackingChess",
+        "e4player",
+        "BlindfoldsChess",
+        "SpeedrunChess",
+        "PositionalMaster",
+        "EndgameWizard",
+        "TacticalGenius",
+        "OpeningTheory",
+        "KingsGambitFan",
+        "SicilianDragon88",
+        "LondonSystemPro",
+        "CaroKannDefender",
+        "FrenchDefenseFan",
+        "GrunfeldMaster",
+        "NimzoIndianFan",
+        "QueensGambitPro",
+        "RuyLopezMaster",
+        "ItalianGameFan",
+        "ScotchGamePro",
     ]
 
-    # Combine and deduplicate
     all_players = list(dict.fromkeys(elite + mid_and_club))
-    print(f"\nTotal unique players to fetch: {len(all_players)}")
-    print(all_players)
+    print(f"\nAttempting to fetch: {len(all_players)} players")
 
-    # Fetch games
     df = fetch_all_players(all_players, max_games=100)
 
+    # Keep only players with 50+ rapid games
     if not df.empty:
+        counts = df.groupby("username").size()
+        valid  = counts[counts >= 50].index
+        df     = df[df["username"].isin(valid)]
+
+        print(f"\nAfter filtering (50+ games): "
+              f"{df['username'].nunique()} players, "
+              f"{len(df)} games")
+
         df.to_csv("data/games_raw.csv", index=False)
-        print(f"\nSaved to data/games_raw.csv")
-        print(f"Shape: {df.shape}")
+        print(f"Saved to data/games_raw.csv")
         print(f"\nGames per player:")
-        print(df.groupby("username").size().sort_values(ascending=False).to_string())
+        print(df.groupby("username").size()
+              .sort_values(ascending=False).to_string())
