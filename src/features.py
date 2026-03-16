@@ -219,10 +219,10 @@ def aggregate_to_player_level(game_df: pd.DataFrame) -> pd.DataFrame:
         avg_castle_move = castled_games.mean() if len(castled_games) > 0 else np.nan
 
         # Opening diversity features
-        eco_counts       = grp["opening_eco"].value_counts()
-        opening_entropy  = entropy(eco_counts)
-        top_opening_pct  = eco_counts.iloc[0] / n_games if len(eco_counts) > 0 else 0
-        unique_openings  = grp["opening_eco"].nunique()
+        eco_counts      = grp["opening_eco"].value_counts()
+        opening_entropy = entropy(eco_counts)
+        top_opening_pct = eco_counts.iloc[0] / n_games if len(eco_counts) > 0 else 0
+        unique_openings = grp["opening_eco"].nunique()
 
         p = {
             "username":              username,
@@ -292,10 +292,19 @@ if __name__ == "__main__":
     # Step 2: aggregate to player level
     print("\nStep 2: Aggregating to player level...")
     player_df = aggregate_to_player_level(game_df)
+
+    # Step 3: remove statistical outliers
+    # Players with capture_rate < 0.10 are likely bots or test accounts
+    before = len(player_df)
+    player_df = player_df[player_df["capture_rate_mean"] > 0.10]
+    print(f"\nOutlier filter: removed {before - len(player_df)} players "
+          f"(capture_rate < 0.10)")
+    print(f"Remaining: {len(player_df)} players")
+
     player_df.to_csv("data/features_player_level.csv", index=False)
     print(f"Saved: data/features_player_level.csv {player_df.shape}")
 
-    # Print player profiles with new features
+    # Print player profiles
     print("\nPlayer profiles:")
     print(player_df[[
         "username", "capture_rate_mean", "sacrifice_rate_mean",
