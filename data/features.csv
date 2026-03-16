@@ -1,101 +1,101 @@
-game_id,side,speed,num_moves,result,panic_score,gambit_tendency,sharp_opening,decisive_game,opening_name,opening_eco,status
-zUxV8GLr,white,bullet,67,1,2.3578431372549016,0,1,1,"King's Indian Defense: Orthodox Variation, Positional Defense, Closed Line",E94,resign
-UEHX6oFD,black,bullet,106,0,0.6633165829145728,0,0,0,King's Indian Attack: Symmetrical Defense,A05,draw
-JrfNbeoz,white,bullet,47,1,1.709375,0,0,1,Nimzowitsch Defense,B00,resign
-fMIf8O0H,black,bullet,30,1,10.645833333333334,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign
-qqcAlGZe,white,bullet,101,1,0.9430379746835443,0,0,1,Hungarian Opening,A00,resign
-OK63uLhA,black,bullet,76,1,6.689655172413794,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,mate
-EOwvdMyl,black,bullet,56,1,4.754310344827586,0,0,1,Bird Opening,A02,mate
-T0hqqeXL,white,bullet,25,1,3.5555555555555554,0,0,1,English Defense,A40,resign
-U7vJv1HU,black,bullet,73,-1,2.1828703703703702,0,0,1,"King's Indian Attack, with e6",A07,resign
-oPMO817E,white,bullet,70,-1,2.1527777777777777,0,0,1,Hungarian Opening: Reversed Alekhine,A00,resign
-ai4mXm5Q,black,bullet,86,1,0.8265765765765766,0,0,1,English Opening: Great Snake Variation,A10,resign
-MoasISt2,white,bullet,83,1,2.450284090909091,0,0,1,"Grünfeld Defense: Exchange Variation, Spassky Variation",D88,resign
-jdsZdqm4,black,bullet,72,1,1.4230769230769231,0,0,1,Rapport-Jobava System,D01,resign
-2WzTqTeg,white,bullet,68,1,2.0,0,1,1,Sicilian Defense: Taimanov Variation,B46,resign
-BdIlhVem,white,bullet,25,1,4.0625,0,1,1,Sicilian Defense,B27,resign
-X2ooxxhO,black,bullet,78,1,4.665909090909091,0,0,1,King's Indian Attack: Symmetrical Defense,A05,resign
-iYUxzt1g,white,bullet,95,1,1.5115740740740742,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign
-jsnf9Tyl,white,bullet,164,0,0.2963800904977375,0,0,1,King's Indian Attack,A07,outoftime
-ZZImaDvj,black,bullet,146,1,0.7963615023474179,0,0,1,Queen's Pawn Game: Modern Defense,A40,mate
-uZ8Ugjbm,black,bullet,47,-1,2.316532258064516,1,0,1,"Queen's Gambit Accepted: Classical Defense, Main Line",D27,resign
-fNUpn0oK,white,bullet,118,1,1.933544303797468,0,0,1,"Réti Opening: Anglo-Slav Variation, with g3",A11,resign
-MSkP4tKc,white,bullet,41,1,5.6625,0,0,1,King's Indian Attack,A05,resign
-ZjbAs7ai,black,bullet,102,1,0.9803921568627452,0,1,1,"Pterodactyl Defense: Western, Rhamphorhynchus",B27,mate
-3YrxyLMY,white,bullet,93,1,1.2232905982905984,0,0,1,Zukertort Opening,A05,resign
-fcmhc2GV,black,bullet,72,1,0.6403985507246377,0,1,1,Sicilian Defense: Najdorf Variation,B90,resign
-knxDYq5W,white,bullet,55,1,1.4183333333333332,0,0,1,Hungarian Opening: Slav Formation,A00,resign
-9vzrfIrv,black,bullet,103,-1,1.6289893617021278,0,0,1,"Queen's Indian Defense: Kasparov-Petrosian Variation, Andersson Variation",E12,resign
-pHGFe1lT,black,bullet,126,1,0.7229381443298969,0,0,1,Rapport-Jobava System,D01,outoftime
-WPYzAi4Z,white,bullet,75,1,1.3002232142857142,0,1,1,King's Indian Defense: Orthodox Variation,E91,resign
-nvybf9EQ,black,bullet,109,-1,1.1160714285714286,0,1,1,Four Knights Game,C47,resign
-5oquNjYQ,white,bullet,148,-1,0.39285714285714285,0,0,1,Grünfeld Defense,D80,outoftime
-OJozkZH3,black,bullet,128,1,1.0129870129870129,0,1,1,Sicilian Defense: Alapin Variation,B22,outoftime
-lUP0KiqC,white,bullet,88,-1,2.210227272727273,0,0,1,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C55,resign
-ovXf5I0A,black,bullet,128,1,0.5416666666666666,0,0,1,Rapport-Jobava System,D01,outoftime
-KyVLw4xS,white,bullet,115,0,0.4046717171717172,0,0,0,Zukertort Opening: Kingside Fianchetto,A04,draw
-oPmPGF8X,black,bullet,37,-1,15.45,0,0,1,King's Indian Attack: Symmetrical Defense,A05,resign
-bDRN4aOQ,white,bullet,83,1,1.5945945945945945,0,0,1,Zukertort Opening,A05,outoftime
-OwBe22yo,black,bullet,113,0,0.7850877192982456,0,0,0,Modern Defense: Pseudo-Austrian Attack,B06,draw
-O79p4glP,white,bullet,77,1,1.8539325842696628,0,0,1,"English Opening: King's English Variation, Four Knights Variation, Flexible Line",A28,resign
-P8sDo8tc,black,bullet,88,1,1.2335858585858586,0,0,1,Modern Defense,B06,resign
-GILE0fmS,white,bullet,126,-1,0.5225903614457832,0,0,1,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,outoftime
-ony4vIqh,black,bullet,80,1,2.5954545454545452,0,0,1,Alekhine Defense: Brooklyn Variation,B02,resign
-7QfHIkvB,black,bullet,81,0,1.6987951807228916,1,0,0,"Queen's Gambit Declined: Vienna Variation, Quiet Variation",D37,draw
-CGxkqUqp,white,bullet,49,1,2.1197916666666665,0,1,1,"Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation",B35,resign
-xaFdRV7l,black,bullet,64,1,1.7365384615384614,0,0,1,Queen's Pawn Game: London System,D02,resign
-RaZzgXoN,white,bullet,94,-1,1.7393617021276595,0,0,1,"English Opening: Symmetrical Variation, Mecking Variation",A39,mate
-M6eLBiFH,white,bullet,119,1,0.5483490566037735,0,0,1,Lasker Simul Special,A00,mate
-eWcl7RsZ,black,bullet,72,1,1.4810606060606062,0,0,1,Modern Defense,A41,mate
-6lXVH00K,black,bullet,112,1,0.8529411764705882,1,0,1,Queen's Gambit Declined: Charousek Variation,D31,outoftime
-OfNq3gH6,white,bullet,75,1,2.2645631067961163,0,0,1,King's Indian Attack: Wahls Defense,A05,resign
-p8t7n1h4,black,bullet,77,-1,1.9005681818181819,0,0,1,Modern Defense: Pseudo-Austrian Attack,B06,resign
-zhHaWEYx,white,bullet,90,-1,1.995412844036697,0,1,1,Vienna Game: Paulsen Variation,C25,resign
-iURTZvqA,white,bullet,39,1,3.1488095238095237,0,0,1,Hungarian Opening: Indian Defense,A00,resign
-w0kyVgi1,black,bullet,169,-1,0.2620967741935484,0,0,1,London System,A48,outoftime
-Kmr7r6wh,white,bullet,91,1,1.3322072072072073,0,0,1,Zukertort Opening,A05,outoftime
-JlEpkyk3,black,bullet,67,1,1.6865671641791045,0,0,1,Queen's Pawn Game: Modern Defense,A40,resign
-oaByoGQT,white,bullet,77,1,2.055379746835443,0,0,1,King's Indian Attack,A07,resign
-cEbsIuIM,white,bullet,35,1,3.602272727272727,0,0,1,Queen's Pawn Game,A41,resign
-7TA0gikZ,black,bullet,27,1,3.0394736842105265,0,0,1,Modern Defense,A41,resign
-mpdOSjGE,black,bullet,106,1,0.9566176470588235,0,0,1,Owen Defense,B00,resign
-QypoKrwX,white,bullet,47,1,1.799019607843137,0,0,1,Hungarian Opening: Dutch Defense,A00,resign
-s0Uhpirb,black,bullet,75,0,0.8069727891156462,0,0,0,"French Defense: Advance Variation, Euwe Variation",C02,draw
-OfyuJPd6,white,bullet,133,1,0.8236940298507462,0,1,1,"Sicilian Defense: Closed, Fianchetto Variation",B24,mate
-sU7DwEQ5,black,bullet,114,1,0.9361510791366906,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,mate
-nqJ08CV3,white,bullet,77,1,1.2648026315789473,0,0,1,Zukertort Opening: Reversed Grünfeld,A08,resign
-DRDFnjTg,black,bullet,56,1,0.8348214285714286,0,0,1,Modern Defense: Standard Defense,B06,mate
-sehBuh7G,white,bullet,79,1,2.8432539682539684,0,0,1,King's Indian Attack: Sicilian Variation,A08,mate
-BZlVXbm2,black,bullet,36,1,0.9983108108108107,0,0,1,Modern Defense,A41,resign
-apzXqc2m,black,bullet,80,1,1.048165137614679,0,0,1,Caro-Kann Defense: Two Knights Attack,B10,mate
-WIPbQ2uh,white,bullet,87,1,2.423728813559322,0,0,1,"King's Indian Attack, with e6",A07,resign
-0zgPiLLC,white,bullet,85,1,1.0601265822784811,0,1,1,"King's Indian Defense: Fianchetto Variation, Uhlmann-Szabo System",E62,mate
-7Yn8tQRZ,black,bullet,108,1,2.0246913580246915,0,1,1,King's Indian Defense: Makogonov Variation,E71,resign
-2KJCBnT4,white,bullet,98,-1,1.0,0,0,1,Queen's Indian Defense: Classical Variation,E17,outoftime
-xtXialtC,white,bullet,88,-1,2.294491525423729,0,0,1,King's Indian Attack: Symmetrical Defense,A05,outoftime
-FmWRUOb5,black,bullet,104,1,0.49173553719008267,0,0,1,Owen Defense,B00,mate
-bnrQVFwg,black,bullet,125,0,0.5237676056338029,0,0,0,Modern Defense,B06,draw
-QHPVrTI9,white,bullet,119,1,0.4029471544715447,0,0,1,King's Indian Attack,A07,outoftime
-YB1gWnQG,black,bullet,90,1,1.103448275862069,0,0,1,King's Indian Attack: Wahls Defense,A05,mate
-5m6KZ6Aj,white,bullet,36,-1,2.893518518518518,0,0,1,Hungarian Opening: Reversed Alekhine,A00,resign
-DGe4uZ0J,black,bullet,62,1,1.6149193548387095,0,0,1,Pirc Defense: Classical Variation,B08,mate
-y0gKUFrf,white,bullet,71,1,3.009259259259259,0,0,1,"Benoni Defense: Benoni-Indian Defense, Kingside Move Order",A43,resign
-Efrc0xxt,black,bullet,58,1,2.375,0,1,1,"King's Indian Defense: Sämisch Variation, Closed Variation",E87,resign
-BMrcRCpP,black,bullet,115,-1,0.9875,0,0,1,King's Indian Attack: Symmetrical Defense,A05,outoftime
-4lb1YWHp,white,bullet,83,1,1.990740740740741,0,0,1,King's Indian Attack: Yugoslav Variation,A07,mate
-0Ir1FJhz,black,bullet,40,1,2.3750000000000004,0,1,1,King's Indian Defense: Normal Variation,E70,resign
-JD9cwOBV,white,bullet,98,-1,1.2617187500000002,0,0,1,King's Indian Attack: French Variation,A08,outoftime
-9plEHNLK,black,bullet,122,1,0.28273809523809523,0,0,1,Nimzo-Larsen Attack,A01,outoftime
-oHFOtZq4,white,bullet,61,1,2.127840909090909,0,0,1,Hungarian Opening: Indian Defense,A00,mate
-r2fwyai2,black,bullet,64,1,1.3216463414634145,0,0,1,Indian Defense,A45,resign
-PNKPc00p,white,bullet,72,-1,7.298076923076923,0,0,1,"English Opening: Agincourt Defense, Neo-Catalan Declined",A14,resign
-ILh7x5lK,black,bullet,62,1,2.3720238095238093,0,0,1,Modern Defense,B06,resign
-IyFe2k8U,black,blitz,96,1,0.46223958333333326,0,0,1,"English Opening: Symmetrical Variation, Botvinnik System",A36,resign
-FdVI4HR4,black,blitz,60,1,0.6666666666666666,1,0,1,"Queen's Pawn Game: Accelerated London System, Steinitz Countergambit",D00,resign
-NOH9m1vV,black,bullet,43,-1,5.047619047619048,0,0,1,Queen's Pawn Game: Modern Defense,A40,resign
-DlnKVdID,black,bullet,82,1,1.8225446428571428,0,0,1,Bird Opening,A02,resign
-R3QuS4LL,white,bullet,65,1,1.4345238095238095,0,0,1,Ruy Lopez: Fianchetto Defense,C60,resign
-U4XRlo1O,black,bullet,140,1,0.7481060606060606,0,0,1,"Nimzowitsch Defense: Scandinavian Variation, Exchange Variation",B00,mate
-CjNfGKGP,white,bullet,107,1,0.8395161290322581,0,1,1,Four Knights Game: Scotch Variation Accepted,C47,resign
-XtuFvvee,black,bullet,90,1,2.677777777777778,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign
-lc8fR5aZ,white,bullet,53,1,7.863636363636364,0,0,1,King's Indian Attack,A07,resign
+game_id,side,speed,num_moves,result,panic_score,time_per_move,capture_rate,sacrifice_rate,check_rate,early_aggression,castle_move,piece_activity,avg_material_diff,gambit_tendency,sharp_opening,decisive_game,opening_name,opening_eco,status
+zUxV8GLr,white,bullet,67,1,2.3578431372549016,102.36363636363636,0.2647058823529412,0.14705882352941177,0.08823529411764706,0,7.0,6,0.14705882352941177,0,1,1,"King's Indian Defense: Orthodox Variation, Positional Defense, Closed Line",E94,resign
+UEHX6oFD,black,bullet,106,0,0.6633165829145728,103.07692307692308,0.2830188679245283,0.11320754716981132,0.03773584905660377,1,4.0,6,0.4339622641509434,0,0,0,King's Indian Attack: Symmetrical Defense,A05,draw
+JrfNbeoz,white,bullet,47,1,1.709375,94.73913043478261,0.25,0.0,0.041666666666666664,4,,4,1.625,0,0,1,Nimzowitsch Defense,B00,resign
+fMIf8O0H,black,bullet,30,1,10.645833333333334,61.642857142857146,0.13333333333333333,0.0,0.06666666666666667,1,4.0,6,0.26666666666666666,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign
+qqcAlGZe,white,bullet,101,1,0.9430379746835443,96.16,0.27450980392156865,0.0392156862745098,0.0196078431372549,1,5.0,5,0.6862745098039216,0,0,1,Hungarian Opening,A00,resign
+OK63uLhA,black,bullet,76,1,6.689655172413794,100.75675675675676,0.2894736842105263,0.15789473684210525,0.15789473684210525,1,5.0,4,0.47368421052631576,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,mate
+EOwvdMyl,black,bullet,56,1,4.754310344827586,83.22222222222223,0.25,0.10714285714285714,0.17857142857142858,1,5.0,5,0.4642857142857143,0,0,1,Bird Opening,A02,mate
+T0hqqeXL,white,bullet,25,1,3.5555555555555554,108.0,0.3076923076923077,0.0,0.07692307692307693,4,,3,0.6923076923076923,0,0,1,English Defense,A40,resign
+U7vJv1HU,black,bullet,73,-1,2.1828703703703702,79.52777777777777,0.19444444444444445,0.027777777777777776,0.027777777777777776,0,5.0,4,0.05555555555555555,0,0,1,"King's Indian Attack, with e6",A07,resign
+oPMO817E,white,bullet,70,-1,2.1527777777777777,71.37142857142857,0.2,0.02857142857142857,0.02857142857142857,1,8.0,7,-0.14285714285714285,0,0,1,Hungarian Opening: Reversed Alekhine,A00,resign
+ai4mXm5Q,black,bullet,86,1,0.8265765765765766,93.47619047619048,0.20930232558139536,0.046511627906976744,0.0,2,16.0,5,1.0930232558139534,0,0,1,English Opening: Great Snake Variation,A10,resign
+MoasISt2,white,bullet,83,1,2.450284090909091,102.5609756097561,0.2619047619047619,0.0,0.023809523809523808,2,10.0,5,0.6428571428571429,0,0,1,"Grünfeld Defense: Exchange Variation, Spassky Variation",D88,resign
+jdsZdqm4,black,bullet,72,1,1.4230769230769231,91.65714285714286,0.3055555555555556,0.1388888888888889,0.05555555555555555,1,17.0,6,1.0,0,0,1,Rapport-Jobava System,D01,resign
+2WzTqTeg,white,bullet,68,1,2.0,102.82352941176471,0.2647058823529412,0.11764705882352941,0.0,2,8.0,8,1.411764705882353,0,1,1,Sicilian Defense: Taimanov Variation,B46,resign
+BdIlhVem,white,bullet,25,1,4.0625,73.08333333333333,0.38461538461538464,0.15384615384615385,0.0,4,11.0,7,0.6153846153846154,0,1,1,Sicilian Defense,B27,resign
+X2ooxxhO,black,bullet,78,1,4.665909090909091,109.60526315789474,0.1794871794871795,0.05128205128205128,0.05128205128205128,0,4.0,6,0.8205128205128205,0,0,1,King's Indian Attack: Symmetrical Defense,A05,resign
+iYUxzt1g,white,bullet,95,1,1.5115740740740742,88.55319148936171,0.25,0.08333333333333333,0.08333333333333333,1,5.0,8,0.875,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign
+jsnf9Tyl,white,bullet,164,0,0.2963800904977375,73.20731707317073,0.18292682926829268,0.0975609756097561,0.10975609756097561,3,6.0,6,1.2682926829268293,0,0,1,King's Indian Attack,A07,outoftime
+ZZImaDvj,black,bullet,146,1,0.7963615023474179,82.625,0.1917808219178082,0.0821917808219178,0.2054794520547945,0,4.0,5,2.328767123287671,0,0,1,Queen's Pawn Game: Modern Defense,A40,mate
+uZ8Ugjbm,black,bullet,47,-1,2.316532258064516,208.7826086956522,0.2608695652173913,0.0,0.0,3,17.0,4,0.5217391304347826,1,0,1,"Queen's Gambit Accepted: Classical Defense, Main Line",D27,resign
+fNUpn0oK,white,bullet,118,1,1.933544303797468,74.13559322033899,0.23728813559322035,0.13559322033898305,0.0847457627118644,2,4.0,5,0.11864406779661017,0,0,1,"Réti Opening: Anglo-Slav Variation, with g3",A11,resign
+MSkP4tKc,white,bullet,41,1,5.6625,86.9,0.23809523809523808,0.0,0.0,2,4.0,4,0.19047619047619047,0,0,1,King's Indian Attack,A05,resign
+ZjbAs7ai,black,bullet,102,1,0.9803921568627452,90.4,0.27450980392156865,0.09803921568627451,0.2549019607843137,5,,7,2.0588235294117645,0,1,1,"Pterodactyl Defense: Western, Rhamphorhynchus",B27,mate
+3YrxyLMY,white,bullet,93,1,1.2232905982905984,110.45652173913044,0.2765957446808511,0.10638297872340426,0.02127659574468085,3,11.0,5,1.0212765957446808,0,0,1,Zukertort Opening,A05,resign
+fcmhc2GV,black,bullet,72,1,0.6403985507246377,85.34285714285714,0.25,0.05555555555555555,0.08333333333333333,2,23.0,3,1.3055555555555556,0,1,1,Sicilian Defense: Najdorf Variation,B90,resign
+knxDYq5W,white,bullet,55,1,1.4183333333333332,95.22222222222223,0.25,0.10714285714285714,0.0,1,4.0,6,0.5714285714285714,0,0,1,Hungarian Opening: Slav Formation,A00,resign
+9vzrfIrv,black,bullet,103,-1,1.6289893617021278,82.05882352941177,0.2549019607843137,0.13725490196078433,0.09803921568627451,1,11.0,7,-0.0392156862745098,0,0,1,"Queen's Indian Defense: Kasparov-Petrosian Variation, Andersson Variation",E12,resign
+pHGFe1lT,black,bullet,126,1,0.7229381443298969,81.3225806451613,0.20634920634920634,0.09523809523809523,0.031746031746031744,2,13.0,5,0.5396825396825397,0,0,1,Rapport-Jobava System,D01,outoftime
+WPYzAi4Z,white,bullet,75,1,1.3002232142857142,105.86486486486487,0.3157894736842105,0.13157894736842105,0.0,0,7.0,5,0.6842105263157895,0,1,1,King's Indian Defense: Orthodox Variation,E91,resign
+nvybf9EQ,black,bullet,109,-1,1.1160714285714286,92.75925925925925,0.2222222222222222,0.07407407407407407,0.037037037037037035,3,12.0,7,-0.25925925925925924,0,1,1,Four Knights Game,C47,resign
+5oquNjYQ,white,bullet,148,-1,0.39285714285714285,81.12162162162163,0.17567567567567569,0.08108108108108109,0.013513513513513514,1,10.0,6,-2.1216216216216215,0,0,1,Grünfeld Defense,D80,outoftime
+OJozkZH3,black,bullet,128,1,1.0129870129870129,88.12698412698413,0.21875,0.109375,0.0625,2,13.0,6,0.53125,0,1,1,Sicilian Defense: Alapin Variation,B22,outoftime
+lUP0KiqC,white,bullet,88,-1,2.210227272727273,89.25,0.2727272727272727,0.09090909090909091,0.0,0,5.0,6,0.022727272727272728,0,0,1,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C55,resign
+ovXf5I0A,black,bullet,128,1,0.5416666666666666,90.36507936507937,0.203125,0.09375,0.109375,2,20.0,6,0.40625,0,0,1,Rapport-Jobava System,D01,outoftime
+KyVLw4xS,white,bullet,115,0,0.4046717171717172,89.84210526315789,0.20689655172413793,0.034482758620689655,0.034482758620689655,1,9.0,6,0.29310344827586204,0,0,0,Zukertort Opening: Kingside Fianchetto,A04,draw
+oPmPGF8X,black,bullet,37,-1,15.45,65.88888888888889,0.2222222222222222,0.1111111111111111,0.05555555555555555,2,4.0,7,0.4444444444444444,0,0,1,King's Indian Attack: Symmetrical Defense,A05,resign
+bDRN4aOQ,white,bullet,83,1,1.5945945945945945,102.82926829268293,0.21428571428571427,0.09523809523809523,0.0,1,8.0,6,0.8571428571428571,0,0,1,Zukertort Opening,A05,outoftime
+OwBe22yo,black,bullet,113,0,0.7850877192982456,105.6,0.26785714285714285,0.07142857142857142,0.08928571428571429,3,15.0,3,1.4107142857142858,0,0,0,Modern Defense: Pseudo-Austrian Attack,B06,draw
+O79p4glP,white,bullet,77,1,1.8539325842696628,96.42105263157895,0.2564102564102564,0.0,0.07692307692307693,2,9.0,5,0.6153846153846154,0,0,1,"English Opening: King's English Variation, Four Knights Variation, Flexible Line",A28,resign
+P8sDo8tc,black,bullet,88,1,1.2335858585858586,90.06976744186046,0.3181818181818182,0.11363636363636363,0.045454545454545456,0,8.0,4,0.6818181818181818,0,0,1,Modern Defense,B06,resign
+GILE0fmS,white,bullet,126,-1,0.5225903614457832,95.28571428571429,0.19047619047619047,0.06349206349206349,0.0,0,5.0,4,-0.49206349206349204,0,0,1,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,outoftime
+ony4vIqh,black,bullet,80,1,2.5954545454545452,79.12820512820512,0.2,0.025,0.05,1,7.0,6,0.3,0,0,1,Alekhine Defense: Brooklyn Variation,B02,resign
+7QfHIkvB,black,bullet,81,0,1.6987951807228916,84.8,0.225,0.025,0.075,2,10.0,4,0.675,1,0,0,"Queen's Gambit Declined: Vienna Variation, Quiet Variation",D37,draw
+CGxkqUqp,white,bullet,49,1,2.1197916666666665,121.54166666666667,0.2,0.08,0.04,1,8.0,7,-0.36,0,1,1,"Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation",B35,resign
+xaFdRV7l,black,bullet,64,1,1.7365384615384614,70.6774193548387,0.25,0.0625,0.0,1,10.0,6,0.5625,0,0,1,Queen's Pawn Game: London System,D02,resign
+RaZzgXoN,white,bullet,94,-1,1.7393617021276595,107.73913043478261,0.2127659574468085,0.10638297872340426,0.0,1,4.0,6,-0.5319148936170213,0,0,1,"English Opening: Symmetrical Variation, Mecking Variation",A39,mate
+M6eLBiFH,white,bullet,119,1,0.5483490566037735,97.38983050847457,0.2,0.06666666666666667,0.15,0,15.0,5,1.65,0,0,1,Lasker Simul Special,A00,mate
+eWcl7RsZ,black,bullet,72,1,1.4810606060606062,97.54285714285714,0.2777777777777778,0.08333333333333333,0.1388888888888889,2,,4,1.2777777777777777,0,0,1,Modern Defense,A41,mate
+6lXVH00K,black,bullet,112,1,0.8529411764705882,101.52727272727273,0.21428571428571427,0.08928571428571429,0.10714285714285714,3,12.0,6,0.8928571428571429,1,0,1,Queen's Gambit Declined: Charousek Variation,D31,outoftime
+OfNq3gH6,white,bullet,75,1,2.2645631067961163,120.70270270270271,0.18421052631578946,0.10526315789473684,0.02631578947368421,1,4.0,5,-0.6052631578947368,0,0,1,King's Indian Attack: Wahls Defense,A05,resign
+p8t7n1h4,black,bullet,77,-1,1.9005681818181819,100.47368421052632,0.21052631578947367,0.15789473684210525,0.0,1,14.0,5,-1.0789473684210527,0,0,1,Modern Defense: Pseudo-Austrian Attack,B06,resign
+zhHaWEYx,white,bullet,90,-1,1.995412844036697,118.84444444444445,0.24444444444444444,0.1111111111111111,0.0,2,9.0,5,-0.044444444444444446,0,1,1,Vienna Game: Paulsen Variation,C25,resign
+iURTZvqA,white,bullet,39,1,3.1488095238095237,63.63157894736842,0.2,0.05,0.05,1,4.0,5,-0.35,0,0,1,Hungarian Opening: Indian Defense,A00,resign
+w0kyVgi1,black,bullet,169,-1,0.2620967741935484,71.46428571428571,0.16666666666666666,0.08333333333333333,0.13095238095238096,0,5.0,4,1.5357142857142858,0,0,1,London System,A48,outoftime
+Kmr7r6wh,white,bullet,91,1,1.3322072072072073,105.93333333333334,0.21739130434782608,0.08695652173913043,0.0,2,16.0,7,1.1956521739130435,0,0,1,Zukertort Opening,A05,outoftime
+JlEpkyk3,black,bullet,67,1,1.6865671641791045,84.36363636363636,0.30303030303030304,0.06060606060606061,0.030303030303030304,1,8.0,6,0.9696969696969697,0,0,1,Queen's Pawn Game: Modern Defense,A40,resign
+oaByoGQT,white,bullet,77,1,2.055379746835443,98.39473684210526,0.23076923076923078,0.05128205128205128,0.0,1,4.0,6,0.46153846153846156,0,0,1,King's Indian Attack,A07,resign
+cEbsIuIM,white,bullet,35,1,3.602272727272727,57.705882352941174,0.4444444444444444,0.1111111111111111,0.0,2,7.0,7,2.0,0,0,1,Queen's Pawn Game,A41,resign
+7TA0gikZ,black,bullet,27,1,3.0394736842105265,93.38461538461539,0.15384615384615385,0.0,0.0,2,7.0,6,0.6153846153846154,0,0,1,Modern Defense,A41,resign
+mpdOSjGE,black,bullet,106,1,0.9566176470588235,90.86538461538461,0.20754716981132076,0.018867924528301886,0.05660377358490566,2,10.0,7,0.4339622641509434,0,0,1,Owen Defense,B00,resign
+QypoKrwX,white,bullet,47,1,1.799019607843137,97.65217391304348,0.25,0.0,0.041666666666666664,4,14.0,3,-0.125,0,0,1,Hungarian Opening: Dutch Defense,A00,resign
+s0Uhpirb,black,bullet,75,0,0.8069727891156462,139.3783783783784,0.2972972972972973,0.13513513513513514,0.0,1,25.0,6,1.7297297297297298,0,0,0,"French Defense: Advance Variation, Euwe Variation",C02,draw
+OfyuJPd6,white,bullet,133,1,0.8236940298507462,88.77272727272727,0.208955223880597,0.04477611940298507,0.08955223880597014,0,9.0,4,0.05970149253731343,0,1,1,"Sicilian Defense: Closed, Fianchetto Variation",B24,mate
+sU7DwEQ5,black,bullet,114,1,0.9361510791366906,102.01785714285714,0.2631578947368421,0.10526315789473684,0.14035087719298245,1,7.0,4,2.491228070175439,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,mate
+nqJ08CV3,white,bullet,77,1,1.2648026315789473,78.97368421052632,0.2564102564102564,0.05128205128205128,0.05128205128205128,3,4.0,5,0.6153846153846154,0,0,1,Zukertort Opening: Reversed Grünfeld,A08,resign
+DRDFnjTg,black,bullet,56,1,0.8348214285714286,100.18518518518519,0.14285714285714285,0.07142857142857142,0.17857142857142858,0,16.0,5,-0.7857142857142857,0,0,1,Modern Defense: Standard Defense,B06,mate
+sehBuh7G,white,bullet,79,1,2.8432539682539684,92.12820512820512,0.175,0.025,0.05,1,4.0,5,0.125,0,0,1,King's Indian Attack: Sicilian Variation,A08,mate
+BZlVXbm2,black,bullet,36,1,0.9983108108108107,99.70588235294117,0.2777777777777778,0.05555555555555555,0.05555555555555555,1,7.0,6,0.6111111111111112,0,0,1,Modern Defense,A41,resign
+apzXqc2m,black,bullet,80,1,1.048165137614679,78.61538461538461,0.2,0.125,0.2,1,9.0,4,-0.975,0,0,1,Caro-Kann Defense: Two Knights Attack,B10,mate
+WIPbQ2uh,white,bullet,87,1,2.423728813559322,90.23255813953489,0.25,0.13636363636363635,0.045454545454545456,0,4.0,6,1.0909090909090908,0,0,1,"King's Indian Attack, with e6",A07,resign
+0zgPiLLC,white,bullet,85,1,1.0601265822784811,64.71428571428571,0.20930232558139536,0.06976744186046512,0.13953488372093023,2,4.0,6,-0.27906976744186046,0,1,1,"King's Indian Defense: Fianchetto Variation, Uhlmann-Szabo System",E62,mate
+7Yn8tQRZ,black,bullet,108,1,2.0246913580246915,72.75471698113208,0.24074074074074073,0.07407407407407407,0.07407407407407407,0,5.0,6,0.4444444444444444,0,1,1,King's Indian Defense: Makogonov Variation,E71,resign
+2KJCBnT4,white,bullet,98,-1,1.0,61.285714285714285,0.22448979591836735,0.10204081632653061,0.02040816326530612,0,4.0,4,0.7959183673469388,0,0,1,Queen's Indian Defense: Classical Variation,E17,outoftime
+xtXialtC,white,bullet,88,-1,2.294491525423729,68.25,0.22727272727272727,0.06818181818181818,0.0,0,4.0,5,0.6363636363636364,0,0,1,King's Indian Attack: Symmetrical Defense,A05,outoftime
+FmWRUOb5,black,bullet,104,1,0.49173553719008267,53.21568627450981,0.2692307692307692,0.17307692307692307,0.1346153846153846,2,8.0,7,5.269230769230769,0,0,1,Owen Defense,B00,mate
+bnrQVFwg,black,bullet,125,0,0.5237676056338029,47.08064516129032,0.1774193548387097,0.06451612903225806,0.016129032258064516,1,7.0,5,1.403225806451613,0,0,0,Modern Defense,B06,draw
+QHPVrTI9,white,bullet,119,1,0.4029471544715447,86.79661016949153,0.21666666666666667,0.05,0.016666666666666666,3,6.0,6,-1.2333333333333334,0,0,1,King's Indian Attack,A07,outoftime
+YB1gWnQG,black,bullet,90,1,1.103448275862069,66.47727272727273,0.2,0.06666666666666667,0.17777777777777778,0,4.0,5,3.2222222222222223,0,0,1,King's Indian Attack: Wahls Defense,A05,mate
+5m6KZ6Aj,white,bullet,36,-1,2.893518518518518,59.611111111111114,0.2222222222222222,0.0,0.0,2,13.0,5,0.2222222222222222,0,0,1,Hungarian Opening: Reversed Alekhine,A00,resign
+DGe4uZ0J,black,bullet,62,1,1.6149193548387095,86.16666666666667,0.25806451612903225,0.0967741935483871,0.12903225806451613,1,5.0,5,2.5161290322580645,0,0,1,Pirc Defense: Classical Variation,B08,mate
+y0gKUFrf,white,bullet,71,1,3.009259259259259,72.05714285714286,0.25,0.1388888888888889,0.08333333333333333,2,9.0,5,-0.3611111111111111,0,0,1,"Benoni Defense: Benoni-Indian Defense, Kingside Move Order",A43,resign
+Efrc0xxt,black,bullet,58,1,2.375,79.07142857142857,0.27586206896551724,0.034482758620689655,0.034482758620689655,1,5.0,4,1.206896551724138,0,1,1,"King's Indian Defense: Sämisch Variation, Closed Variation",E87,resign
+BMrcRCpP,black,bullet,115,-1,0.9875,52.68421052631579,0.21052631578947367,0.05263157894736842,0.19298245614035087,0,4.0,5,-0.22807017543859648,0,0,1,King's Indian Attack: Symmetrical Defense,A05,outoftime
+4lb1YWHp,white,bullet,83,1,1.990740740740741,61.75609756097561,0.2619047619047619,0.14285714285714285,0.07142857142857142,3,4.0,6,0.9285714285714286,0,0,1,King's Indian Attack: Yugoslav Variation,A07,mate
+0Ir1FJhz,black,bullet,40,1,2.3750000000000004,65.52631578947368,0.2,0.0,0.05,1,4.0,5,0.5,0,1,1,King's Indian Defense: Normal Variation,E70,resign
+JD9cwOBV,white,bullet,98,-1,1.2617187500000002,61.285714285714285,0.2857142857142857,0.10204081632653061,0.061224489795918366,2,4.0,7,2.326530612244898,0,0,1,King's Indian Attack: French Variation,A08,outoftime
+9plEHNLK,black,bullet,122,1,0.28273809523809523,48.016666666666666,0.19672131147540983,0.08196721311475409,0.06557377049180328,1,5.0,6,1.3114754098360655,0,0,1,Nimzo-Larsen Attack,A01,outoftime
+oHFOtZq4,white,bullet,61,1,2.127840909090909,72.43333333333334,0.3225806451612903,0.22580645161290322,0.12903225806451613,1,4.0,5,1.8387096774193548,0,0,1,Hungarian Opening: Indian Defense,A00,mate
+r2fwyai2,black,bullet,64,1,1.3216463414634145,102.03225806451613,0.25,0.03125,0.0625,2,11.0,6,1.125,0,0,1,Indian Defense,A45,resign
+PNKPc00p,white,bullet,72,-1,7.298076923076923,59.52777777777778,0.25,0.027777777777777776,0.0,1,4.0,5,0.3611111111111111,0,0,1,"English Opening: Agincourt Defense, Neo-Catalan Declined",A14,resign
+ILh7x5lK,black,bullet,62,1,2.3720238095238093,70.56666666666666,0.45161290322580644,0.25806451612903225,0.0967741935483871,2,5.0,7,3.6451612903225805,0,0,1,Modern Defense,B06,resign
+IyFe2k8U,black,blitz,96,1,0.46223958333333326,231.0212765957447,0.20833333333333334,0.020833333333333332,0.041666666666666664,0,7.0,7,0.5625,0,0,1,"English Opening: Symmetrical Variation, Botvinnik System",A36,resign
+FdVI4HR4,black,blitz,60,1,0.6666666666666666,195.31034482758622,0.16666666666666666,0.06666666666666667,0.06666666666666667,2,13.0,5,0.5333333333333333,1,0,1,"Queen's Pawn Game: Accelerated London System, Steinitz Countergambit",D00,resign
+NOH9m1vV,black,bullet,43,-1,5.047619047619048,74.28571428571429,0.23809523809523808,0.047619047619047616,0.047619047619047616,2,4.0,6,0.7619047619047619,0,0,1,Queen's Pawn Game: Modern Defense,A40,resign
+DlnKVdID,black,bullet,82,1,1.8225446428571428,99.025,0.21951219512195122,0.12195121951219512,0.024390243902439025,0,5.0,5,0.1951219512195122,0,0,1,Bird Opening,A02,resign
+R3QuS4LL,white,bullet,65,1,1.4345238095238095,64.09375,0.21212121212121213,0.0,0.030303030303030304,2,4.0,6,0.696969696969697,0,0,1,Ruy Lopez: Fianchetto Defense,C60,resign
+U4XRlo1O,black,bullet,140,1,0.7481060606060606,83.02898550724638,0.21428571428571427,0.1,0.14285714285714285,7,12.0,6,2.3714285714285714,0,0,1,"Nimzowitsch Defense: Scandinavian Variation, Exchange Variation",B00,mate
+CjNfGKGP,white,bullet,107,1,0.8395161290322581,86.66037735849056,0.2222222222222222,0.018518518518518517,0.037037037037037035,3,9.0,7,0.7407407407407407,0,1,1,Four Knights Game: Scotch Variation Accepted,C47,resign
+XtuFvvee,black,bullet,90,1,2.677777777777778,66.0909090909091,0.24444444444444444,0.08888888888888889,0.06666666666666667,1,4.0,7,0.8444444444444444,0,0,1,Zukertort Opening: Kingside Fianchetto,A04,resign
+lc8fR5aZ,white,bullet,53,1,7.863636363636364,70.3076923076923,0.25925925925925924,0.037037037037037035,0.037037037037037035,2,4.0,6,0.9259259259259259,0,0,1,King's Indian Attack,A07,resign
