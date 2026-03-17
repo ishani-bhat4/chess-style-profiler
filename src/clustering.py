@@ -252,7 +252,21 @@ def print_summary(scores: list) -> None:
     print("Davies-Bouldin: lower is better (min 0.0)")
     best = max(scores, key=lambda x: x[1])
     print(f"\nWinner: {best[0]} (silhouette={best[1]:.3f})")
+# Add this to clustering.py
 
+CLUSTER_NAMES = {
+    0: "Chaotic Attacker",
+    1: "Solid Strategist", 
+    2: "Time Pressure Wildcard",
+    3: "Passive Defender"
+}
+
+CLUSTER_DESCRIPTIONS = {
+    0: "You play aggressively and create complications, but inconsistent king safety costs you games. Focus on castling early and converting your attacks.",
+    1: "You play principled, well-rounded chess. You castle reliably, manage time well, and have a broad opening repertoire. Work on converting small advantages.",
+    2: "Your biggest challenge is time management. You slow down dramatically in critical positions. Practice faster decision-making in time pressure situations.",
+    3: "You play cautiously and avoid complications. This is safe but limits your winning chances. Try introducing more active piece play and tactical patterns."
+}
 # ── MAIN ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     df = pd.read_csv("data/features_player_level.csv")
@@ -306,3 +320,9 @@ if __name__ == "__main__":
     print(f"\nPlayer cluster assignments (KMeans):")
     print(df_clean[["username", "cluster_kmeans"]].sort_values(
         "cluster_kmeans").to_string())
+    # Save models for the predictor
+    import joblib
+    joblib.dump(km_model, "data/kmeans_model.pkl")
+    joblib.dump(scaler,   "data/scaler.pkl")
+    joblib.dump(pca_model,"data/pca_model.pkl")
+    print("Models saved to data/")
