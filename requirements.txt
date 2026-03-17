@@ -5,7 +5,8 @@ python-chess
 matplotlib
 seaborn
 scikit-learn
-streamlit
+streamlit==1.32.0
 tqdm
 scipy
 joblib
+altair==4.2.2
