@@ -1,0 +1,6 @@
+# .gitignore additions
+data/games_raw.csv
+data/features_game_level.csv
+data/features_player_level.csv
+data/clustered_players.csv
+data/*.png
