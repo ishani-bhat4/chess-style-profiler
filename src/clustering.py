@@ -6,7 +6,7 @@ from sklearn.mixture import GaussianMixture
 from sklearn.decomposition import PCA
 from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics import silhouette_score, davies_bouldin_score
-import matplotlib.pyplot as plt
+# matplotlib imported lazily — not needed for prediction, only for training
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -88,6 +88,7 @@ def tune_dbscan(X: np.ndarray) -> tuple:
     Find optimal DBSCAN eps using k-distance plot.
     Try multiple eps values and pick the one with best silhouette.
     """
+    import matplotlib.pyplot as plt
     # Use 4-NN distances to find reasonable eps range
     nbrs = NearestNeighbors(n_neighbors=4).fit(X)
     distances, _ = nbrs.kneighbors(X)
@@ -170,6 +171,7 @@ def run_hierarchical(X: np.ndarray, k: int = 5) -> tuple:
 
 # ── FIND OPTIMAL K ──────────────────────────────────────────────────
 def find_optimal_k(X: np.ndarray, max_k: int = 8) -> int:
+    import matplotlib.pyplot as plt
     inertias, silhouettes, bic_scores = [], [], []
     k_range = range(2, max_k + 1)
 
@@ -210,6 +212,7 @@ def find_optimal_k(X: np.ndarray, max_k: int = 8) -> int:
 
 # ── COMPARISON PLOT ─────────────────────────────────────────────────
 def plot_comparison(X: np.ndarray, results: dict) -> None:
+    import matplotlib.pyplot as plt
     pca = PCA(n_components=2)
     X_2d = pca.fit_transform(X)
     explained = pca.explained_variance_ratio_
