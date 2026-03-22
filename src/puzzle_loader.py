@@ -28,7 +28,7 @@ CLUSTER_THEMES = {
 
 
 def load_puzzles(
-        path: str = "data/lichess_db_puzzle.csv",
+        path: str = "data/puzzles_filtered.csv",
         max_puzzles: int = 200_000) -> pd.DataFrame:
     """
     Load the Lichess puzzle database.
@@ -65,9 +65,9 @@ def filter_puzzles_for_player(
     all_themes = themes["primary"] + themes["secondary"]
 
     # Rating window: player_rating ± window
-    rating_min = player_rating - rating_window
-    rating_max = player_rating + rating_window
-
+    effective_rating = min(player_rating, 2400)
+    rating_min = effective_rating - rating_window
+    rating_max = effective_rating + rating_window
     # Filter by rating range
     rating_mask = (
         (df["Rating"] >= rating_min) &
@@ -130,7 +130,7 @@ def get_puzzles_for_player(
         cluster_id:     int,
         player_rating:  int,
         n_puzzles:      int = 10,
-        puzzle_db_path: str = "data/lichess_db_puzzle.csv") -> list[dict]:
+        puzzle_db_path: str = "data/puzzles_filtered.csv") -> list[dict]:
     """
     Main entry point: given a cluster and rating,
     return n puzzles ready for display.
