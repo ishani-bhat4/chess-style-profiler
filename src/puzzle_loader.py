@@ -65,7 +65,7 @@ def filter_puzzles_for_player(
     all_themes = themes["primary"] + themes["secondary"]
 
     # Rating window: player_rating ± window
-    effective_rating = min(player_rating, 2400)
+    effective_rating = min(player_rating, 2000)
     rating_min = effective_rating - rating_window
     rating_max = effective_rating + rating_window
     # Filter by rating range
