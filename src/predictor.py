@@ -99,7 +99,7 @@ def predict_player_style(
             cluster_id=cluster_id,
             player_rating=player_rating,
             n_puzzles=6,
-            puzzle_db_path="data/lichess_db_puzzle.csv"
+            puzzle_db_path="data/puzzles_filtered.csv"
         )
     except Exception as e:
         print(f"  Puzzle loading failed: {e}")
