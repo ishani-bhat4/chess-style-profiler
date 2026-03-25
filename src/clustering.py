@@ -11,27 +11,14 @@ import warnings
 warnings.filterwarnings("ignore")
 
 FEATURE_COLS = [
-    "panic_score_mean",
-    "panic_score_std",
-    "time_per_move_mean",
-    "capture_rate_mean",
-    "capture_rate_std",
-    "sacrifice_rate_mean",
-    "check_rate_mean",
-    "early_aggression_mean",
-    "piece_activity_mean",
-    "avg_material_diff",
-    "castle_rate",
-    "avg_castle_move",
-    "gambit_rate",
-    "sharp_opening_rate",
-    "opening_entropy",
-    "top_opening_pct",
-    "unique_openings",
-    "win_rate",
-    "draw_rate",
-    "decisive_rate",
-    "avg_game_length",
+    "panic_score_mean", "panic_score_std", "time_per_move_mean",
+    "capture_rate_mean", "capture_rate_std", "sacrifice_rate_mean",
+    "check_rate_mean", "checks_received_mean",
+    "early_aggression_mean", "piece_activity_mean", "avg_material_diff",
+    "castle_rate", "pawn_shield_mean", "king_safety_score",
+    "gambit_rate", "sharp_opening_rate", "opening_entropy",
+    "top_opening_pct", "unique_openings",
+    "win_rate", "draw_rate", "avg_game_length",
 ]
 
 # ── PREP ────────────────────────────────────────────────────────────
