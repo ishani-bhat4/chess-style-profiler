@@ -16,7 +16,7 @@ to your weaknesses.
 - Aggregates game-level features into a player profile
 - Clusters players into style archetypes using KMeans, GMM, DBSCAN, 
   and Hierarchical clustering
-- (Coming soon) Recommends Lichess puzzles matched to detected weaknesses
+- Recommends Lichess puzzles matched to detected weaknesses
 
 ---
 
@@ -67,7 +67,7 @@ python-chess    — move parsing and board state replay
 scipy           — opening entropy calculation
 matplotlib      — visualization
 Lichess API     — game data (open, no auth required)
-streamlit       — web app (coming soon)
+streamlit       — web app (https://chess-style-profiler.streamlit.app/)
 ```
 
 ---
